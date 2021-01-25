@@ -6,9 +6,9 @@ typedef vector <int> ve;
 #define F first
 #define S second
 
-map<string,string> mp; // map to hold teacher with respectful subject
-map<int,string> subject; // subject it
-multimap<int, pair<int,int>> routine; // for saving routine's information
+map<string,string> mp; // map to hold subject with teacher 
+map<int,string> subject; // subject id
+multimap<int, pair<int,int>> routine;  // for saving routine's information
 
 
 void A()
